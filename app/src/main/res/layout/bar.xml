@@ -13,22 +13,19 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:text="Groups"
-            android:id="@+id/buttonGroups"
-            android:onClick="listenGroups"/>
+            android:id="@+id/buttonGroups" />
 
         <Button android:layout_height="fill_parent"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:text="Day"
-            android:id="@+id/buttonToday"
-            android:onClick="listenDay"/>
+            android:id="@+id/buttonToday" />
 
         <Button android:layout_height="fill_parent"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:text="Month"
-            android:id="@+id/buttonMonth"
-            android:onClick="listenMonth"/>
+            android:id="@+id/buttonMonth" />
     </LinearLayout>
 
 </LinearLayout>

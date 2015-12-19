@@ -49,7 +49,7 @@ public class LogInActivity extends AppCompatActivity {
                 } else {
                     ParseUser currUser = ParseUser.getCurrentUser();
                     Toast.makeText(LogInActivity.this, currUser.getUsername(), Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(LogInActivity.this, MainActivity.class));
+                    startActivity(new Intent(LogInActivity.this, DayActivity.class));
                 }
 
             }
